@@ -11,4 +11,14 @@ import ReactDOM from "react-dom";
 //   rootElement
 // );
 
-ReactDOM.render(<h1>hello world!</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1>My Fav Foods</h1>
+    <ul>
+      <li>bacon</li>
+      <li>pizza</li>
+      <li>cream</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
